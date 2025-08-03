@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "ts-node src/index.ts",
+    "migrate": "prisma migrate dev"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "cors": "^2.8.5"
+  }
+}
